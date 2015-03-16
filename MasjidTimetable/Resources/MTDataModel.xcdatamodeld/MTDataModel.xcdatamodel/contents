@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14C109" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Donation" representedClassName="Donation" syncable="YES">
+        <attribute name="bankDetails" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="donationId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="encouragementText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="live" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="masjidId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="paypalCode" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Event" representedClassName="Event" syncable="YES">
+        <attribute name="created" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="details" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="longDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="masjidId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="JammatSoundSettings" representedClassName="JammatSoundSettings" syncable="YES">
+        <attribute name="asarJammatTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="asarOn" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="eshaJammatTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eshaOn" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="fajarJammatTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fajarOn" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="maghribJammatTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maghribOn" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="soundName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zoharJammatTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zoharOn" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="Masjid" representedClassName="Masjid" syncable="YES">
+        <attribute name="add_1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favorite" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="largerArea" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="localArea" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="masjidId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telephone" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MasjidTimetable" representedClassName="MasjidTimetable" syncable="YES">
+        <attribute name="asar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="asarj" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="asarSoundOff" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="esha" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eshaj" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eshaSoundOff" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="fajar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fajarSoundOff" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="maghrib" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maghribSoundOff" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="masjidId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="subahsadiq" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sunrise" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sunset" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zohar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zoharj" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zoharSoundOff" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="Note" representedClassName="Note" syncable="YES">
+        <attribute name="created" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="masjidId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="month" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noteId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="noteListingId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Ramadhan" representedClassName="Ramadhan" syncable="YES">
+        <attribute name="asar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="asarj" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="esha" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eshaj" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fajar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iftar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maghrib" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="masjidId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sehriends" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subahsadiq" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sunrise" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zohar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zoharj" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TimeTableFormat" representedClassName="TimeTableFormat" syncable="YES">
+        <attribute name="format" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="masjidId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="month" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="timetableformatId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Donation" positionX="-144" positionY="198" width="128" height="148"/>
+        <element name="Event" positionX="-153" positionY="189" width="128" height="163"/>
+        <element name="JammatSoundSettings" positionX="-153" positionY="243" width="128" height="210"/>
+        <element name="Masjid" positionX="-65" positionY="108" width="128" height="195"/>
+        <element name="MasjidTimetable" positionX="-245" positionY="95" width="128" height="315"/>
+        <element name="Note" positionX="-153" positionY="198" width="128" height="135"/>
+        <element name="Ramadhan" positionX="-144" positionY="207" width="128" height="255"/>
+        <element name="TimeTableFormat" positionX="-153" positionY="243" width="128" height="103"/>
+    </elements>
+</model>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8793FC9C-9CB0-42FE-9CB4-DB96EE273D72</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MTApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D1A25518228E8B6735C0A9A4B0CDB90A5B910971</key>
+		<string>http://priya.at@112.196.38.251:81/ios_group/masjidtimetable.git</string>
+		<key>D9E16F7620C497A501E5657134C190E4849F89DA</key>
+		<string>http://priya.at@112.196.38.250:81/ios/masjid.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MTApp/MTApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D1A25518228E8B6735C0A9A4B0CDB90A5B910971</key>
+		<string>../../../../masjidTimetable</string>
+		<key>D9E16F7620C497A501E5657134C190E4849F89DA</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://priya.at@112.196.38.250:81/ios/masjid.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D9E16F7620C497A501E5657134C190E4849F89DA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D9E16F7620C497A501E5657134C190E4849F89DA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MasjidAppGIT</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D1A25518228E8B6735C0A9A4B0CDB90A5B910971</string>
+			<key>IDESourceControlWCCName</key>
+			<string>masjidTimetable</string>
+		</dict>
+	</array>
+</dict>
+</plist>
